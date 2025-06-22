@@ -125,7 +125,6 @@ color: #404bbf;
 
 .header-address {
     margin-left: auto;
-    padding: 24px 0;
 }
 
 
@@ -161,7 +160,7 @@ color: #404bbf;
 }
 
 .header-address-link{
-    font-style: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -1031,6 +1030,10 @@ font-weight: 500;
     display: none;
 }
 
+.header-container {
+    align-items: center;
+}
+
 .header-menu-list {
     gap: 40px;
     display: flex;
@@ -1048,7 +1051,6 @@ font-weight: 500;
 
 .header-logo {
     margin-right: 120px;
-    padding: 24px 0;
 }
 
 .header-address-list {
@@ -1058,7 +1060,7 @@ font-weight: 500;
 }
 
 .header-address-link {
-    font-style: 12px;
+    font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
 }
